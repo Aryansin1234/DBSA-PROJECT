@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12365c"/>
+      <stop offset="100%" stop-color="#0f2c4c"/>
+    </linearGradient>
+  </defs>
+  <!-- rounded square background -->
+  <rect x="0" y="0" width="64" height="64" rx="16" fill="url(#bg)"/>
+  <!-- medical cross -->
+  <path d="M27 14h10v13h13v10H37v13H27V37H14V27h13z" fill="#ffffff" opacity="0.16"/>
+  <!-- heartbeat / pulse line -->
+  <path d="M12 34h9l4-11 6 20 5-13 3 4h13"
+        fill="none" stroke="#2fa27a" stroke-width="4"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
